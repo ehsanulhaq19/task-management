@@ -1,0 +1,46 @@
+body {
+    background: #eee;
+}
+
+/*Navbar*/
+nav .social-part .fa {
+    padding-right: 20px;
+}
+
+nav ul li a {
+    margin-right: 20px;
+}
+
+/*app*/
+.app-container {
+    height: 80vh;
+    margin-top: 7%;
+}
+
+.home-container {
+    font-size: 26px;
+    text-align: center;
+}
+
+/*Extras*/
+
+.height-fit-content {
+    height: fit-content;
+}
+
+.drag-container {
+    padding: 10px;
+}
+
+.draggable-item {
+    cursor: move;
+    user-select: none;
+}
+
+.pagination {
+    line-height: 50px;
+}
+
+.pagination .relative.inline-flex.shadow-sm.rounded-md {
+    display: none;
+}
