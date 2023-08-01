@@ -19,6 +19,11 @@ This is a Task Management Laravel project that provides a platform to efficientl
 
 ## Setup
 
+### Package Command
+To set up the project's packages, run the following command:
+composer install
+
+This command will execute all the pending database migrations.
 ### Migrate Command
 To set up the project's database, run the following command:
 php artisan migrate
